@@ -93,8 +93,8 @@ if(!$error){
 	
 	
    // Insert into transactions table 
-    
-	 	   		  
+	
+   // Alert sender instantly. This message can also be sent as an sms/email. 	   		  
   echo succ_Msg("You have successfully transfered the sum of <b>₦".number_format($Amount).". Your new wallet balance is <b>₦".number_format($new_sender_wallet_Balance)); 
   
 
