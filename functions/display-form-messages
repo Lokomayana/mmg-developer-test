@@ -1,0 +1,15 @@
+<?php
+
+function err_Msg($msgerr){
+	return 
+	die(json_encode(array( "type" => "error",  'message' => $msgerr)));
+}
+
+
+function succ_Msg($msgsucc){
+	return 
+	json_encode(array( "type" => "success",  'message' => $msgsucc));
+}
+
+
+?>
